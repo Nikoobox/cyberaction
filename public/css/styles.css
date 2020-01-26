@@ -11,10 +11,11 @@ nav{
   box-shadow: none!important;
 }
 .navbar{
-  /* position:absolute;*/
+  position:absolute;
   z-index:3; 
   padding:0rem!important;
-  height:50px!important
+  height:50px!important;
+  /* overflow-y:hidden; */
 }
 .navLogoText{
   height:50px;
