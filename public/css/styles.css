@@ -34,22 +34,24 @@ nav{
     z-index:2; */
 }
 .banner{
+  position: relative;
   width:100%;
   height:100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  top:100px;
+  /* top:100px; */
 }
 .banner video{
   position: absolute;
-  top:50px;
+  /* top:0; */
   left:0;
   object-fit: cover;
   width: 100%;
   height: 100%;
   pointer-events: none;
+  z-index: -1;
 }
 .banner .videobox_text{
 text-align: center;
