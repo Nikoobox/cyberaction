@@ -146,15 +146,18 @@ text-align: center;
   /* SOCIAL MEDIA */
   .contacts{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .social{
-    padding:3% 0 3% 0;
+    padding:1% 0 3% 0;
+  }
+  .address{
+    padding-top:2%;
   }
   .fab{
     color: #343a40;
     margin: 0 2% 0 2%;
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
   }
   .fab:hover{
     color: black;
