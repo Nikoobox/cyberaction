@@ -70,7 +70,7 @@ text-align: center;
   text-align: center;
 }
 .card-body{
-  padding: 0.2rem!important;
+  padding: 0.3rem!important;
 }
 .section_heading{
   font-size: 2rem;
@@ -130,12 +130,16 @@ text-align: center;
   }
   .booking2{
     text-align: center;
+    /* padding-bottom: 5%; */
+  }
+  .offers{
     padding-bottom: 5%;
   }
   /* SOCIAL MEDIA */
   .contacts{
     text-align: center;
     font-size: 1.2rem;
+    background-color:#f1f1f1;
   }
   .social{
     padding:1% 0 1% 0;
@@ -160,10 +164,10 @@ text-align: center;
   .gallery{
     display: block;
     width: 35%;
-    margin:1% auto auto auto;
+    margin:1% auto 2% auto;
   }
   @media(max-width: 768px) {
     .gallery {
-      width: 90%;
+      width: 80%;
     }
   }
