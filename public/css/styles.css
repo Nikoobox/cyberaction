@@ -11,8 +11,9 @@ nav{
   box-shadow: none!important;
 }
 .navbar{
-  position:absolute;
-  z-index:3; 
+  /* position:absolute;*/
+  z-index:3;
+  top:0!important;
   padding:0rem!important;
   height:50px!important;
   /* overflow-y:hidden; */
