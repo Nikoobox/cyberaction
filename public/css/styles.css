@@ -11,8 +11,8 @@ nav{
   box-shadow: none!important;
 }
 .navbar{
-  /* position:relative;
-  z-index:2; */
+  position:relative;
+  z-index:2;
   padding:0rem!important;
   height:50px!important
 }
@@ -26,6 +26,9 @@ nav{
   .navbar-expand-md .navbar-nav .nav-link{
     padding-right: .7rem!important;
     padding-left: .7rem!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    background-color: #343a40;
 }
 .banner{
   width:100%;
@@ -113,7 +116,6 @@ text-align: center;
   }
   .area{
     width:30%;
-    background-color: grey;
     margin: 1%;
   }
   ul{
