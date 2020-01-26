@@ -12,7 +12,7 @@ nav{
 }
 .navbar{
   position:absolute;
-  /* z-index:2;  */
+  z-index:2;
   padding:0rem!important;
   height:50px!important
 }
@@ -29,8 +29,8 @@ nav{
 }
 .navbar-dark .navbar-nav .nav-link {
     background-color: #343a40;
-    position:relative;
-    z-index:2;
+    /* position:relative;
+    z-index:2; */
 }
 .banner{
   width:100%;
