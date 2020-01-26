@@ -11,8 +11,8 @@ nav{
   box-shadow: none!important;
 }
 .navbar{
-  position:relative;
-  z-index:2;
+  /* position:relative;
+  z-index:2; */
   padding:0rem!important;
   height:50px!important
 }
