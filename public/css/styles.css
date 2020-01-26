@@ -73,10 +73,11 @@ text-align: center;
 .card{
   height:95%;
   margin:4%;
+  padding
   text-align: center;
 }
 .card-body{
-  padding: 0.3rem!important;
+  padding: 1rem!important;
 }
 .section_heading{
   font-size: 2rem;
