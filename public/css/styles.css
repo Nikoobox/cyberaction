@@ -8,7 +8,7 @@ nav{
   letter-spacing: 1px;
   top:0!important;
 }
-a{
+.btn a{
   color:white!important;
 }
 a:hover {
@@ -16,6 +16,14 @@ a:hover {
 }
 .btn.focus, .btn:focus {
   box-shadow: none!important;
+}
+.btn{
+  font-weight:300!important;
+}
+@media (max-width: 768px){
+    .navbar-nav {
+           padding:auto 5%;
+    }
 }
 .navbar-nav{
   top:0!important;
@@ -36,6 +44,14 @@ a:hover {
     }
 .navbar-dark .navbar-nav .nav-link {
     background-color: #343a40;
+    padding-left: 5%;
+    
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+ul{
+  padding:0!important;
 }
 .banner{
   position: relative;
@@ -57,9 +73,15 @@ text-align: center;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.banner .videobox_text h2{
+.banner .videobox_text p{
+  font-size: 2rem;
   margin-bottom:4%;
   color:white;
+}
+@media(max-width: 768px) {
+  .banner .videobox_text p{
+    font-size: 1.4rem;
+  }
 }
 .logo_section2{
   display: block;
@@ -73,7 +95,6 @@ text-align: center;
 .card{
   height:95%;
   margin:4%;
-  padding
   text-align: center;
 }
 .card-body{
@@ -137,31 +158,9 @@ text-align: center;
   }
   .booking2{
     text-align: center;
-    /* padding-bottom: 5%; */
   }
   .offers{
     padding-bottom: 5%;
-  }
-  /* SOCIAL MEDIA */
-  .contacts{
-    text-align: center;
-    font-size: 1.2rem;
-    background-color:#f1f1f1;
-  }
-  .social{
-    padding:1% 0 1% 0;
-  }
-  .address{
-    padding-top:5%;
-  }
-  .fab{
-    color: #343a40;
-    margin: 0 2% 0 2%;
-    font-size: 2.5rem !important;
-  }
-  .fab:hover{
-    color: black;
-    transition:0.2s
   }
   /* GALLERY */
   .section5{
@@ -177,4 +176,25 @@ text-align: center;
     .gallery {
       width: 80%;
     }
+  }
+  /* SOCIAL MEDIA */
+  .contacts{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color:#f1f1f1;
+  }
+  .social{
+    padding:1% 0 1% 0;
+  }
+  .address{
+    padding-top:3%;
+  }
+  .fab{
+    color: #343a40;
+    margin: 0 2% 0 2%;
+    font-size: 2.5rem !important;
+  }
+  .fab:hover{
+    color: black;
+    transition:0.2s
   }
