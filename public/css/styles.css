@@ -45,6 +45,10 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link {
     background-color: #343a40;
 }
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border: none!important;
+  }
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
@@ -66,10 +70,11 @@ ul{
 .banner .videobox_text{
 text-align: center;
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  width: 80%!important;
 }
 .banner .videobox_text p{
   font-size: 2rem;
