@@ -74,7 +74,7 @@ text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  width: 80%!important;
+  width: 90%!important;
 }
 .banner .videobox_text p{
   font-size: 2rem;
