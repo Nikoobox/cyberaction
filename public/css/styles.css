@@ -6,7 +6,8 @@ font-weight: 300!important;
 nav{
   color: white;
   letter-spacing: 1px;
-  top:0!important;
+  /* top:0!important; */
+
 }
 .btn a{
   color:white!important;
@@ -19,29 +20,30 @@ a:hover {
 }
 .btn{
   font-weight:300!important;
-}
+/* }
 @media (max-width: 768px){
     .navbar-nav {
            padding:auto 5%;
     }
-}
+} */
 .navbar-nav{
   top:0!important;
 }
 .navbar{
   height:50px!important;
 }
-.navLogoText{
-  height:50px;
-  margin-right: 1%;
+.navbar-brand{
+  line-height: 50px;
 }
 .navbar .nav-item a{
   font-size: 1.1rem;
+  display: flex;
+  align-items: center;
 }
-  .navbar-expand-md .navbar-nav .nav-link{
-    padding-right: .7rem!important;
-    padding-left: .7rem!important;
-    }
+.navbar-expand-md .navbar-nav .nav-link{
+  padding-right: .7rem!important;
+  padding-left: .7rem!important;
+  }
 .navbar-dark .navbar-nav .nav-link {
     background-color: #343a40;
 }
