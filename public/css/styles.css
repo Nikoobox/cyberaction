@@ -20,8 +20,8 @@ a:hover {
 }
 .btn{
   font-weight:300!important;
-/* }
-@media (max-width: 768px){
+}
+/* @media (max-width: 768px){
     .navbar-nav {
            padding:auto 5%;
     }
@@ -29,9 +29,9 @@ a:hover {
 .navbar-nav{
   top:0!important;
 }
-.navbar{
+/* .navbar{
   height:50px!important;
-}
+} */
 .navbar-brand{
   line-height: 50px;
 }
