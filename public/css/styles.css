@@ -21,11 +21,11 @@ a:hover {
 .btn{
   font-weight:300!important;
 }
-/* @media (max-width: 768px){
+@media (max-width: 768px){
     .navbar-nav {
            padding:auto 5%;
     }
-} */
+}
 .navbar-nav{
   top:0!important;
 }
@@ -34,6 +34,8 @@ a:hover {
 } */
 .navbar-brand{
   line-height: 50px;
+  margin-left: 0;
+  padding-left: .7rem!important;
 }
 .navbar .nav-item a{
   font-size: 1.1rem;
