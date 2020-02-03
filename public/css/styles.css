@@ -7,7 +7,6 @@ nav{
   color: white;
   letter-spacing: 1px;
   /* top:0!important; */
-
 }
 .btn a{
   color:white!important;
@@ -53,6 +52,7 @@ a:hover {
     color: rgba(255,255,255,.5);
     border: none!important;
   }
+
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
@@ -207,3 +207,8 @@ text-align: center;
     color: black;
     transition:0.2s
   }
+/* MESSAGES */
+#commentsSec{
+  text-align: center;
+  margin-bottom: 5%;
+}
