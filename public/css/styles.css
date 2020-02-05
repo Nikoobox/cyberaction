@@ -146,6 +146,12 @@ text-align: center;
     text-align: center;
     background-color:#f1f1f1;
   }
+  .bday .card{
+    margin-top: 3%!important;
+    margin-right: 1%!important;
+    margin-left: 1%!important;
+    margin-bottom: 2%!important;
+  }
   .area{
     width:30%;
     margin: 1%;
@@ -159,12 +165,45 @@ text-align: center;
   }
   .rule_name{
     font-size: 1.6rem;
-    margin-bottom: 5%;
     padding-top:2%;
     padding-bottom: 2%;
     background-color: #343a40;
     color:white;
   }
+  .bday-title{
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+.information{
+  text-align: left;
+  padding-top: 5%!important;
+  padding-right: 5%!important;
+  padding-left: 5%!important;
+  padding-bottom: 0!important;
+
+}
+.information2{
+  text-align: left;
+  padding-top: 0!important;
+  padding-right: 5%!important;
+  padding-left: 5%!important;
+  padding-bottom: 5%!important;
+}
+.img-bday{
+  width:90%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.contact-link{
+    color: black;
+}
+.contact-link:hover{
+    color: black;
+    font-weight: 400;
+    transition:0.1s
+  }
+}
   .booking2{
     text-align: center;
   }
@@ -193,10 +232,10 @@ text-align: center;
     background-color:#f1f1f1;
   }
   .social{
-    padding:1% 0 1% 0;
+    padding:5% 0 1% 0;
   }
   .address{
-    padding-top:3%;
+    padding-top:5%;
   }
   .fab{
     color: #343a40;

@@ -17,8 +17,13 @@ $(function(){
     }).on('hidden.bs.modal', function(){
         $(this).find('video')[0].pause();
     });
-});
 
+    $('#modalVideo4').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+    });
+});
 // Radom comments appear on screen
 const comments = [
     {
@@ -63,12 +68,20 @@ const comments = [
 // commentsSec.appendChild(makeComment);
 
 const num =comments.length;
-function getRandomInt(num) {
-    const randomNum = Math.floor(Math.random() * Math.floor(num))
-    return randomNum;
-  };
 
+// function getRandomInt(){
+//     const randomNum = Math.floor(Math.random() * Math.floor(num))
+//     return randomNum;
+//   };
+// const random=getRandomInt(num);
+
+function getRandomInt(num){
+    const randomNum = Math.floor(Math.random() * Math.floor(num));
+    return randomNum;
+    // console.log(randomNum);
+  };
 const random=getRandomInt(num);
+
 
 const commentsSec = document.querySelector('#commentsSec');
 const makeComment = document.createElement('div');
