@@ -78,7 +78,6 @@ const num =comments.length;
 function getRandomInt(num){
     const randomNum = Math.floor(Math.random() * Math.floor(num));
     return randomNum;
-    // console.log(randomNum);
   };
 const random=getRandomInt(num);
 
