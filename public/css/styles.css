@@ -27,13 +27,14 @@ a:hover {
 .navbar-nav{
   top:0!important;
 }
-/* .navbar{
-  height:50px!important;
-} */
 .navbar-brand{
   line-height: 50px;
   margin-left: 0;
   padding-left: .7rem!important;
+}
+.navLogoText{
+  height: 35px;
+  padding-left: 0.5rem;
 }
 .navbar .nav-item a{
   font-size: 1.1rem;
@@ -51,7 +52,6 @@ a:hover {
     color: rgba(255,255,255,.5);
     border: none!important;
   }
-
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
