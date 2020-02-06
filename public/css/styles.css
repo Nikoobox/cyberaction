@@ -41,6 +41,10 @@ a:hover {
     height: 2rem;
     padding-left: 0.5rem;
   }
+  .navbar{
+    padding-left: 0.2rem!important;
+    padding-right: 0.2rem!important;
+  }
 }
 .navbar .nav-item a{
   font-size: 1.1rem;
