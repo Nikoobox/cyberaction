@@ -113,6 +113,13 @@ text-align: center;
   font-weight: bold;
   padding-top: 5%;
 }
+@media(max-width: 768px) {
+  .section_heading{
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
+    padding-top: 8%;
+  }
+}
 .game_name{
   font-size: 1.6rem;
   margin-top: 2%;
@@ -187,6 +194,11 @@ text-align: center;
   padding-right: 5%!important;
   padding-left: 5%!important;
   padding-bottom: 5%!important;
+}
+@media(max-width: 768px) {
+  .btn-bday{
+    margin-bottom:7%;
+  }
 }
 .img-bday{
   width:90%;
