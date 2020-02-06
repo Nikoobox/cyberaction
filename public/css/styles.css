@@ -6,7 +6,6 @@ font-weight: 300!important;
 nav{
   color: white;
   letter-spacing: 1px;
-  /* top:0!important; */
 }
 .btn a{
   color:white!important;
@@ -254,4 +253,11 @@ text-align: center;
 #commentsSec{
   text-align: center;
   margin-bottom: 5%;
+}
+@media(max-width: 768px) {
+#commentsSec{
+    text-align: center;
+    margin-top: 5%!important;
+    margin-bottom: 15%!important;
+  }
 }
