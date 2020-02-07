@@ -41,16 +41,12 @@ a:hover {
 @media(max-width: 768px) {
   .navLogoText{
     height: 1.5rem;
-    /* padding-left: 0.5rem; */
-    /* padding-right: 0.5rem; */
   }
   .navbar{
     padding-left: 0.2rem!important;
     padding-right: 0.2rem!important;
   }
   .navbar-brand{
-    /* line-height: 50px;
-    margin-left: 0; */
     padding-left: 0!important;
     font-size: 1rem;
   }
@@ -197,6 +193,12 @@ text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
   }
+  @media(max-width: 768px) {
+  .bday-title{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
 .information{
   text-align: left;
   padding-top: 5%!important;
@@ -215,6 +217,10 @@ text-align: center;
 @media(max-width: 768px) {
   .btn-bday{
     margin-bottom:7%;
+  }
+  .bday-title{
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 }
 .img-bday{
@@ -257,8 +263,24 @@ text-align: center;
       width: 80%;
     }
   }
+  /* MESSAGES */
+  #commentsSec{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  @media(max-width: 768px) {
+  #commentsSec{
+      text-align: center;
+      margin-top: 5%!important;
+      margin-bottom: 15%!important;
+    }
+  }
   /* SOCIAL MEDIA */
+  .logoblack{
+    height: 3rem;
+  }
   .contacts{
+    padding-top: 5%;
     text-align: center;
     font-size: 1.2rem;
     background-color:#f1f1f1;
@@ -272,8 +294,10 @@ text-align: center;
   }
   @media(max-width: 768px) {
     .address{
-      padding-top:12%;
+      padding-top:10%;
     }
+    .contacts{
+      padding-top: 10%;
   }
   .fab{
     color: #343a40;
@@ -284,15 +308,3 @@ text-align: center;
     color: black;
     transition:0.2s
   }
-/* MESSAGES */
-#commentsSec{
-  text-align: center;
-  margin-bottom: 5%;
-}
-@media(max-width: 768px) {
-#commentsSec{
-    text-align: center;
-    margin-top: 5%!important;
-    margin-bottom: 15%!important;
-  }
-}
