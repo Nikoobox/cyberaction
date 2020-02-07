@@ -293,4 +293,8 @@ text-align: center;
     }
     .contacts{
       padding-top: 10%;
-  }
+    }
+    .logoblack{
+      height: 2rem;
+    }
+}
