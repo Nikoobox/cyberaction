@@ -257,10 +257,10 @@ text-align: center;
       margin-top: 5%!important;
       margin-bottom: 15%!important;
     }
-  .gallery {
-      width: 80%;
+    .gallery {
+        width: 80%;
+      }
     }
-  }
   /* SOCIAL MEDIA */
   .logoblack{
     height: 3rem;
@@ -296,5 +296,8 @@ text-align: center;
     }
     .logoblack{
       height: 2rem;
+    }
+    .social{
+      padding-top:10%;
     }
 }
