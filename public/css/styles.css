@@ -55,6 +55,11 @@ a:hover {
 ul{
   padding:0!important;
 }
+.backvideo{
+  /* filter: opacity(0.9); */
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
 .banner{
   position: relative;
   width:100%;
