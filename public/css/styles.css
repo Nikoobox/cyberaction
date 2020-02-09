@@ -56,7 +56,6 @@ ul{
   padding:0!important;
 }
 .backvideo{
-  /* filter: opacity(0.5); */
   -webkit-filter: brightness(70%);
   filter: brightness(70%);
 }
@@ -146,9 +145,6 @@ text-align: center;
 /* GAMES VIDEO */
 .video_game_box{
   background-color: black!important;
-  /* position: relative;
-   overflow: hidden; */
-   /* padding-top: 56.25%; */
 }
 .video_game{
   width:100%!important;
