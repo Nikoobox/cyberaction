@@ -277,7 +277,7 @@ text-align: center;
   }
   .social{
     padding:5% 0 1% 0;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
   .address{
     padding-top:5%;
@@ -290,6 +290,11 @@ text-align: center;
   .fab:hover{
     color: black;
     transition:0.2s
+  }
+  #allrights{
+    font-size: 0.9rem;
+    color: #343a40;
+    padding-top: 1%;
   }
   @media(max-width: 768px) {
     .address{
