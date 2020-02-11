@@ -67,13 +67,12 @@ const comments = [
 // makeComment.innerHTML=`<b>${comments[getRandomInt(num)].name}</b> : ${comments[getRandomInt(num)].message}`;
 // commentsSec.appendChild(makeComment);
 
-const num =comments.length;
-
 // function getRandomInt(){
 //     const randomNum = Math.floor(Math.random() * Math.floor(num))
 //     return randomNum;
 //   };
 // const random=getRandomInt(num);
+const num =comments.length;
 
 function getRandomInt(num){
     const randomNum = Math.floor(Math.random() * Math.floor(num));
@@ -81,10 +80,9 @@ function getRandomInt(num){
   };
 const random=getRandomInt(num);
 
-
 const commentsSec = document.querySelector('#commentsSec');
 const makeComment = document.createElement('div');
-makeComment.innerHTML=`<b>${comments[random].name}</b> : ${comments[random].message}`;
-makeComment.classList.add('social');
 
-commentsSec.appendChild(makeComment);
+  makeComment.innerHTML=`<b>${comments[random].name}</b> : ${comments[random].message}`;
+  makeComment.classList.add('social');
+  commentsSec.appendChild(makeComment);
