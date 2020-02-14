@@ -82,14 +82,14 @@ text-align: center;
   color:white;
 }
 .banner .videobox_text p:nth-of-type(1){
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 400;
   margin-bottom:4%;
 
 }
 .banner .videobox_text p:nth-of-type(2){
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 300;
   margin-bottom:4%;
 }
 .btn-book{
@@ -218,7 +218,6 @@ text-align: center;
   padding-right: 5%!important;
   padding-left: 5%!important;
   padding-bottom: 0!important;
-
 }
 .information2{
   text-align: left;
