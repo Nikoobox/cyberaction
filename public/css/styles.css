@@ -79,12 +79,18 @@ text-align: center;
   transform: translate(-50%, -50%);
   z-index: 1;
   width: 90%!important;
+  color:white;
 }
-.banner .videobox_text p{
-  font-size: 2rem;
+.banner .videobox_text p:nth-of-type(1){
+  font-size: 2.5rem;
   font-weight: 400;
   margin-bottom:4%;
-  color:white;
+
+}
+.banner .videobox_text p:nth-of-type(2){
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom:4%;
 }
 .btn-book{
   background-color: #D3573A!important;
@@ -143,12 +149,18 @@ text-align: center;
   .navbar-nav {
          padding:auto 5%;
   }
+  .banner .videobox_text{
+    width:70%!important;
+  }
+  .left{
+    text-align: left!important;
+  }
   .section_heading{
     padding-top: 8%;
   }
-  .banner .videobox_text p{
+  /* .banner .videobox_text p{
     font-size: 1.4rem;
-  }
+  } */
 }
 /* GAMES VIDEO */
 .video_game_box{
@@ -227,14 +239,6 @@ text-align: center;
 .contact-link{
     color: black;
 }
-/* .giftcard_box{
-  text-align: center;
-  padding-top:5%;
-  padding-bottom:5%;
-}
-.giftcard{
-  width:70%;
-} */
 .contact-link:hover{
     color: black;
     font-weight: 400;
