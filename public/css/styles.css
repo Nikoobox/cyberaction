@@ -227,6 +227,14 @@ text-align: center;
 .contact-link{
     color: black;
 }
+/* .giftcard_box{
+  text-align: center;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+.giftcard{
+  width:70%;
+} */
 .contact-link:hover{
     color: black;
     font-weight: 400;
