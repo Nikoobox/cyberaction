@@ -88,7 +88,7 @@ text-align: center;
 
 }
 .banner .videobox_text p:nth-of-type(2){
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300;
   margin-bottom:4%;
 }
@@ -151,7 +151,7 @@ text-align: center;
   }
   .banner .videobox_text{
     top:50%;
-    width:70%!important;
+    width:75%!important;
   }
   .left{
     text-align: left!important;
