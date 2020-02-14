@@ -85,10 +85,9 @@ text-align: center;
   font-size: 2.3rem;
   font-weight: 400;
   margin-bottom:4%;
-
 }
 .banner .videobox_text p:nth-of-type(2){
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
   margin-bottom:4%;
 }
@@ -153,18 +152,12 @@ text-align: center;
     top:60%;
     width:75%!important;
   }
-  /* .left{
-    text-align: left!important;
-  } */
   .banner .videobox_text p:nth-of-type(2){
     padding-bottom: 10%;
   }
   .section_heading{
     padding-top: 8%;
   }
-  /* .banner .videobox_text p{
-    font-size: 1.4rem;
-  } */
 }
 /* GAMES VIDEO */
 .video_game_box{
