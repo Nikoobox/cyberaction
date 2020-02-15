@@ -49,13 +49,6 @@ a:hover {
     color: rgba(255,255,255,.5);
     border: none!important;
   }
-  /* .dropdownmenu.dropdown-toggle{
-background: url(http://yourwebsite.com/wp-content/themes/zerif-pro/images/menu-icon.png) center center no-repeat #000 !important;
-} */
-
-/* .navbar-dark .navbar-toggler-icon {
-  color:white!important;
-} */
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
@@ -303,7 +296,6 @@ text-align: center;
   }
   .social{
     padding:5% 0 1% 0;
-    /* font-size: 1.2rem; */
   }
   .address{
     padding-top:5%;
