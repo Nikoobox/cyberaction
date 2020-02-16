@@ -243,7 +243,6 @@ text-align: center;
     font-weight: 400;
     transition:0.1s
   }
-/* } */
   .booking2{
     text-align: center;
   }
@@ -283,6 +282,9 @@ text-align: center;
     .gallery {
         width: 80%;
       }
+    .booking2{
+      padding-bottom: 10%;;
+    }
     }
   /* SOCIAL MEDIA */
   .logoblack{
