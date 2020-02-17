@@ -53,9 +53,14 @@ const comments = [
     },
     {
         name: "@targari_en",
-        message:"Технологии уже здесь!))",
+        message:"ро",
         date:""
     },
+    {
+        name: "@apr_163",
+        message:"Победа за нами🙌",
+        date:""
+    }
 ];
 // const num =comments.length;
 // function getRandomInt(num) {
