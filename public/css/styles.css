@@ -49,6 +49,9 @@ a:hover {
     color: rgba(255,255,255,.5);
     border: none!important;
   }
+.nav-phone{
+  display:none;
+}
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
@@ -72,7 +75,7 @@ ul{
   pointer-events: none;
 }
 .banner .videobox_text{
-text-align: center;
+  text-align: center;
   position: absolute;
   top: 70%;
   left: 50%;
@@ -150,6 +153,9 @@ text-align: center;
   }
   .nav-link{
     padding: 0.75rem!important;
+  }
+  .nav-phone{
+    display: inline!important;
   }
   .banner .videobox_text{
     top:60%;
