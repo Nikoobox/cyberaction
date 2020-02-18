@@ -53,7 +53,7 @@ const comments = [
     },
     {
         name: "@targari_en",
-        message:"ро",
+        message:"Технологии уже здесь!))",
         date:""
     },
     {
