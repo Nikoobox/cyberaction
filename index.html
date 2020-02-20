@@ -26,7 +26,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <img src="public/images/logowhite.png" class="navLogoText">
     <a class="navbar-brand" href="index.html">CYBERACTION SAMARA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,9 +51,7 @@
           <a class="nav-link" href="mailto:cyberaction_samara@mail.ru?subject=Бронирование&body=Имя:%0D%0A%0D%0AНомер телефона:%0D%0A%0D%0AДата:%0D%0A%0D%0AВремя:%0D%0A%0D%0A%0D%0A%0D%0AЛибо позвоните нам по номеру: +7 927 898-99-45">Забронировать</a>
         </li>
         <li class="nav-item nav-phone">
-          
             <a href="tel:+7927 898-9945" class="nav-link">+7 927 898-99-45</a> 
-         
         </li>  
       </ul>
     </div>
@@ -101,7 +100,7 @@
                 </a>
               </div>
               <div class="game_name">Локация Спидбол</div>
-              <p>Спидбол-это командное VR приключение где ваши друзья превращаются либо в братьев по оружию, либо в виртуальных соперников</p>
+              <p class="game-info">Спидбол-это командное VR приключение где ваши друзья превращаются либо в братьев по оружию, либо в виртуальных соперников</p>
               <button type="button" class="btn btn-dark btn-lg mt-auto" data-toggle="modal" data-target="#modalVideo1">Смотреть Видео</button>
             </div>
           </div>
@@ -134,8 +133,10 @@
                 </a>
               </div>
               <div class="game_name">Локация Полигон</div>
-              <p>Идеальное место чтобы немного пострелять и побегать. Настоящий командный VR шутер для любителей как компютерных игр, так и активного отдыха. </p>
-              <button type="button" class="btn btn-dark btn-lg mt-auto" data-toggle="modal" data-target="#modalVideo2">Смотреть Видео</button>
+              <p class="game-info">Идеальное место чтобы немного пострелять и побегать. Настоящий командный VR шутер для любителей как компютерных игр, так и активного отдыха. </p>
+              <!-- <button type="button" class="btn btn-dark btn-lg mt-auto" -->
+              <button type="button" class="btn btn-dark btn-lg mt-auto" 
+              data-toggle="modal" data-target="#modalVideo2">Смотреть Видео</button>
             </div>
           </div>
         </div>
@@ -167,7 +168,7 @@
                 </a>
               </div>
               <div class="game_name">Локация Прототип</div>
-              <p>Оранжевый или синий? Плохой парень или хороший полицейский? Все просто, но со вкусом. Новейшая локация теперь и на нашей Арене!</p>
+              <p class="game-info">Оранжевый или синий? Плохой парень или хороший полицейский? Все просто, но со вкусом. Новейшая локация теперь и на нашей Арене!</p>
               <button type="button" class="btn btn-dark btn-lg mt-auto" data-toggle="modal" data-target="#modalVideo3">Смотреть Видео</button>
             </div>
           </div>
@@ -238,11 +239,11 @@
         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 p-1">
           <div class="card">
             <div class="card-body flex-column d-flex p-0">
-              <div class="rule_name">Цены</div>
+              <div class="rule_name">Цены<i class="fas fa-ruble-sign rule-icon"></i></div>
               <ul class="information">
-                <li>-Будни: <b>500 руб/чел.</b></li>
-                <li>-Выходные: <b>700 руб/чел.</b></li>
-                <li>-Продолжительность сеанса: <b>60 мин*.</b></li>
+                <li>Будни: <b>500 руб/чел.</b></li>
+                <li>Выходные: <b>700 руб/чел.</b></li>
+                <li>Продолжительность сеанса: <b>60 мин*.</b></li>
               </ul>
             </div>
           </div>
@@ -250,13 +251,13 @@
         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 p-1">
           <div class="card">
             <div class="card-body flex-column d-flex p-0">
-              <div class="rule_name">Правила</div>
+              <div class="rule_name">Правила<i class="far fa-clock rule-icon"></i></div>
               <ul class="information">
-                <li>-Длительность игры: <b>40 мин.</b></li>
-                <li>-Инструктаж: <b>10 мин.</b></li>
-                <li>-Фотосессия: <b>5-10 мин.</b></li>
-                <li>-Количество команд: <b>2</b></li>
-                <li>-Команда: <b>2-5 чeл.</b></li>
+                <li>Длительность игры: <b>40 мин.</b></li>
+                <li>Инструктаж: <b>10 мин.</b></li>
+                <li>Фотосессия: <b>5-10 мин.</b></li>
+                <li>Количество команд: <b>2</b></li>
+                <li>Команда: <b>2-5 чeл.</b></li>
               </ul>
             </div>
           </div>
@@ -264,13 +265,13 @@
         <div class="col-lg-4 col-md-6 col-sm-12 mb-5 p-1">
           <div class="card">
             <div class="card-body flex-column d-flex p-0">
-              <div class="rule_name">Технологии</div>
+              <div class="rule_name">Технологии<i class="fas fa-wifi rule-icon"></i></div>
               <ul class="information">
-                <li>-Очки <b>Oculus Quest.</b></li>
-                <li>-Контроллеры <b>Oculus Touch.</b></li>
-                <li>-Технология отслеживания <b>Oculus Insight.</b></li>
-                <li>-Абсолютное погружение в виртуальную реальность.</li>
-                <li>-100% беспроводные технологии.</li>
+                <li>Очки <b>Oculus Quest.</b></li>
+                <li>Контроллеры <b>Oculus Touch.</b></li>
+                <li>Технология отслеживания <b>Oculus Insight.</b></li>
+                <li>Абсолютное погружение в виртуальную реальность.</li>
+                <li>100% беспроводные технологии.</li>
               </ul>
             </div>
           </div>
@@ -289,21 +290,22 @@
       <div class="section_heading">Дни Рождения и Акции</div>
           <div class="card">
             <div class="card-body flex-column d-flex p-0">
-              <div class="rule_name bday-title">Детский День Рождения</div>
+              <!-- <div class="rule_name bday-title">Детский Праздник</div> -->
               <div class="row">
                 <div class="col-md-6 col-sm-12">
+                  <div class="rule_name">Детский Праздник<i class="fas fa-birthday-cake rule-icon"></i></div>
                   <ul class="information">
-                    <li>-Продолжительность: <b>от 2х часов.</b></li>
-                    <li>-Будни: <b>10000 руб за 2 часа.</b></li>
-                    <li>-Выходные: <b>14000 руб за 2 часа.</b></li>
+                    <li>Продолжительность: <b>от 2х часов.</b></li>
+                    <li>Будни: <b>10000 руб за 2 часа.</b></li>
+                    <li>Выходные: <b>14000 руб за 2 часа.</b></li>
                   </ul>
-                  <ul class="information2">
+                  <ul class="information information2">
                     <li>В стоимость входит:</li>
-                    <li>-Аренда специальной гостевой комнаты</li>
-                    <li>-Столы, стулья, кулер с горячей/холодной водой, чай, кофе.</li>
-                    <li>-Аренда 10 игровых очков.</li>
-                    <li>-Количество гостей не ограничено.</li>
-                    <li>-Администратор и опытный иструктор.</li>
+                    <li>Аренда специальной гостевой комнаты</li>
+                    <li>Столы, стулья, кулер с горячей/холодной водой, чай, кофе.</li>
+                    <li>Аренда 10 игровых очков.</li>
+                    <li>Количество гостей не ограничено.</li>
+                    <li>Администратор и опытный иструктор.</li>
                   </ul>
                   <button type="button" class="btn btn-dark btn-lg mt-auto btn-bday" data-toggle="modal" data-target="#modalVideo4">Смотреть Видео</button>
                   <!-- KIDS BDAY VIDEO -->
@@ -368,12 +370,12 @@
             <div class="col-md-6 col-sm-12">
               <div class="card">
                 <div class="card-body flex-column d-flex p-0">
-                  <div class="rule_name">Акции и Сертификаты</div>
+                  <div class="rule_name">Акции и Сертификаты<i class="fas fa-award rule-icon"></i></div>
                   <ul class="information">
-                    <li>-Подписывайтесь на <a href="https://www.instagram.com/cyberaction_samara/?hl=en" class="contact-link">cyberaction_samara</a> в Инстаграм и следите за нашими акциями и специальными предложениями!</li>
-                    <li>-Учавстуйте в конкурсах и выигрывайте подарочные сертификаты номиналом до <b>5000 руб!</b></li>
-                    <li>-Приобретайте подарочные сертификаты номиналом от 1000₽ до 5000₽ и радуйте своих друзей и коллег нереальным подарком!</li>
-                    <li>-Узнавайте первыми о появлении новейших уровней и игр!</li>
+                    <li>Подписывайтесь на <a href="https://www.instagram.com/cyberaction_samara/?hl=en" class="contact-link">cyberaction_samara</a> в Инстаграм и следите за нашими акциями и специальными предложениями!</li>
+                    <li>Учавстуйте в конкурсах и выигрывайте подарочные сертификаты номиналом до <b>5000 руб!</b></li>
+                    <li>Приобретайте подарочные сертификаты номиналом от <b>1000 руб до 5000 руб</b> и радуйте своих друзей и коллег нереальным подарком!</li>
+                    <li>Узнавайте первыми о появлении новейших уровней и игр!</li>
                   </ul>
                 </div>
               </div>

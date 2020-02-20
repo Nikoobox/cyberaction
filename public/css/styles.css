@@ -1,11 +1,12 @@
 body{
-font-size: 1rem;
+font-size: 1.1rem!important;
 font-family: 'Roboto', sans-serif!important;
 font-weight: 300!important;
 }
 nav{
   color: white;
   letter-spacing: 1px;
+  background-color:rgb(13, 14, 14);
 }
 .btn a{
   color:white!important;
@@ -43,7 +44,8 @@ a:hover {
   padding-left: .6rem!important;
   }
 .navbar-dark .navbar-nav .nav-link {
-    background-color: #343a40;
+    /* background-color: #343a40; */
+    background-color: rgb(13, 14, 14);
 }
 .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,.5);
@@ -118,11 +120,10 @@ ul{
   border-radius: 0!important;
 }
 .card-body{
-  padding: 1rem!important;
+  padding:0!important;
 }
 .section_heading{
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.3rem;
   padding-top: 5%;
 }
 .game_name{
@@ -130,8 +131,22 @@ ul{
   margin-top: 2%;
   margin-bottom: 2%
 }
+.btn-dark{
+  background-color: rgb(13, 14, 14)!important;
+  width:65%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.15s ;
+}
+.btn-dark:hover{
+  background-color: rgb(40, 40, 40)!important;
+}
 .game_image{
   width:100%;
+}
+.game-info{
+  margin-left: 5%;
+  margin-right:5%;
 }
 .games{
   padding-bottom: 5%!important;
@@ -166,6 +181,9 @@ ul{
   }
   .section_heading{
     padding-top: 8%;
+  }
+  .btn-dark{
+    width:50%;
   }
 }
 /* GAMES VIDEO */
@@ -204,14 +222,17 @@ ul{
   }
   ul li{
     list-style-type: none;
-    font-size: 1.1rem;
   }
   .rule_name{
     font-size: 1.6rem;
-    padding-top:2%;
-    padding-bottom: 2%;
-    background-color: #343a40;
-    color:white;
+    padding-top:5%;
+    padding-bottom: 0;
+    color:rgb(13, 14, 14);
+    padding-left:5%;
+    text-align: left;
+  }
+  .rule-icon{
+    margin-left:3%;
   }
   .bday-title{
     padding-top: 1%;
@@ -227,9 +248,13 @@ ul{
 .information2{
   text-align: left;
   padding-top: 0!important;
-  padding-right: 5%!important;
-  padding-left: 5%!important;
   padding-bottom: 5%!important;
+}
+.information li{
+  padding-top:2%;
+}
+.information2 li{
+  padding-top:2%;
 }
 .img-bday{
   width:90%;
@@ -320,7 +345,7 @@ ul{
   #allrights{
     font-size: 0.9rem;
     color: #343a40;
-    padding-top: 1%;
+    padding: 1% auto 1% auto;
   }
   @media(max-width: 768px) {
     .address{
