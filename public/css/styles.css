@@ -133,7 +133,7 @@ ul{
 }
 .btn-dark{
   background-color: rgb(13, 14, 14)!important;
-  width:70%;
+  width:65%;
   margin-left: auto;
   margin-right: auto;
   transition: 0.15s ;
@@ -183,7 +183,7 @@ ul{
     padding-top: 8%;
   }
   .btn-dark{
-    width:50%;
+    width:60%;
   }
 }
 /* GAMES VIDEO */
