@@ -78,16 +78,29 @@ const comments = [
 //   };
 // const random=getRandomInt(num);
 const num =comments.length;
-
 function getRandomInt(num){
-    const randomNum = Math.floor(Math.random() * Math.floor(num));
+    const randomNum = Math.floor(Math.random() * num);
     return randomNum;
   };
 const random=getRandomInt(num);
-
 const commentsSec = document.querySelector('#commentsSec');
 const makeComment = document.createElement('div');
 
-  makeComment.innerHTML=`<b>${comments[random].name}</b> : ${comments[random].message}`;
-  makeComment.classList.add('social');
-  commentsSec.appendChild(makeComment);
+makeComment.innerHTML=`<b>${comments[random].name}</b> : ${comments[random].message}`;
+makeComment.classList.add('social');
+commentsSec.appendChild(makeComment);
+
+//--------------------
+
+// const num =comments.length;
+// function getRandomInt(num){
+//     const randomNum = Math.floor(Math.random() * num);
+//     return randomNum;
+//   };
+// const random=setInterval(getRandomInt(num),2000);
+// const commentsSec = document.querySelector('#commentsSec');
+// const makeComment = document.createElement('div');
+
+// makeComment.innerHTML=`<b>${comments[random].name}</b> : ${comments[random].message}`;
+// makeComment.classList.add('social');
+// commentsSec.appendChild(makeComment);

@@ -183,9 +183,6 @@ ul{
   .section_heading{
     padding-top: 8%;
   }
-  /* .btn-dark{
-    width:60%;
-  } */
 }
 /* GAMES VIDEO */
 .video_game_box{
@@ -266,6 +263,14 @@ ul{
 .offers{
   margin-top:5%;
   margin-bottom:5%;
+}
+.giftcard-box{
+  background-color: black;
+}
+.giftcard{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact-link{
     color: black;
