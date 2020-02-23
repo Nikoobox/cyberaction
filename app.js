@@ -62,21 +62,6 @@ const comments = [
         date:""
     }
 ];
-// const num =comments.length;
-// function getRandomInt(num) {
-//     const randomNum = Math.floor(Math.random() * Math.floor(num))
-//     return randomNum;
-//   }
-// const commentsSec = document.querySelector('#commentsSec');
-// const makeComment = document.createElement('div');
-// makeComment.innerHTML=`<b>${comments[getRandomInt(num)].name}</b> : ${comments[getRandomInt(num)].message}`;
-// commentsSec.appendChild(makeComment);
-
-// function getRandomInt(){
-//     const randomNum = Math.floor(Math.random() * Math.floor(num))
-//     return randomNum;
-//   };
-// const random=getRandomInt(num);
 
 //------------ ORIGINAL WORKING CODE-------------------------
 
@@ -96,9 +81,9 @@ const comments = [
 
 //---------------------------------------------------------
 const num =comments.length;
-function getRandomInt(num){
+function getRandomInt0(num){
     const randomNum = Math.floor(Math.random() * num);
-    return randomNum;
+    return randomNum0;
   };
 
 setInterval(() => {
@@ -107,11 +92,11 @@ setInterval(() => {
     const message = comments[random].message;
 
     makeComment.innerHTML=`<b>${name}</b> : ${message}`;
-}, 6000);
+}, 5000);
 const random=getRandomInt(num);
 
 const commentsSec = document.querySelector('#commentsSec');
-// makeComment.innerHTML=`<b>${comments.name}</b> : ${comments.message}`;
+
 const makeComment = document.createElement('div');
 makeComment.innerHTML=`<b>${comments[1].name}</b> : ${comments[1].message}`;
 
