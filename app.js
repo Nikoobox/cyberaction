@@ -78,7 +78,7 @@ const comments = [
 //   };
 // const random=getRandomInt(num);
 
-//------------WORKING CODE-------------------------
+//------------ ORIGINAL WORKING CODE-------------------------
 
 // const num =comments.length;
 // function getRandomInt(num){
@@ -95,7 +95,6 @@ const comments = [
 // commentsSec.appendChild(makeComment);
 
 //---------------------------------------------------------
-
 const num =comments.length;
 function getRandomInt(num){
     const randomNum = Math.floor(Math.random() * num);
@@ -112,7 +111,9 @@ setInterval(() => {
 const random=getRandomInt(num);
 
 const commentsSec = document.querySelector('#commentsSec');
+// makeComment.innerHTML=`<b>${comments.name}</b> : ${comments.message}`;
 const makeComment = document.createElement('div');
+makeComment.innerHTML=`<b>${comments[1].name}</b> : ${comments[1].message}`;
 
 makeComment.classList.add('social');
 commentsSec.appendChild(makeComment);
