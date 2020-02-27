@@ -23,8 +23,26 @@ $(function(){
     }).on('hidden.bs.modal', function(){
         $(this).find('video')[0].pause();
     });
+
+    $('#modalVideo5').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+    });
+
+    $('#modalVideo6').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+    });
+
+    $('#modalVideoKids').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+    });
 });
-// Radom comments appear on screen
+// Random comments appear on screen
 const comments = [
     {
         name: "@_il_2_",
@@ -62,7 +80,6 @@ const comments = [
         date:""
     }
 ];
-
 //------------ ORIGINAL WORKING CODE-------------------------
 
 // const num =comments.length;
@@ -81,24 +98,23 @@ const comments = [
 
 //---------------------------------------------------------
 const num =comments.length;
-function getRandomInt0(num){
+function getRandomInt(num){
     const randomNum = Math.floor(Math.random() * num);
-    return randomNum0;
+    return randomNum;
   };
 
 setInterval(() => {
     const random=getRandomInt(num);
     const name = comments[random].name;
     const message = comments[random].message;
-
     makeComment.innerHTML=`<b>${name}</b> : ${message}`;
 }, 5000);
-const random=getRandomInt(num);
 
+const random=getRandomInt(num);
 const commentsSec = document.querySelector('#commentsSec');
 
 const makeComment = document.createElement('div');
-makeComment.innerHTML=`<b>${comments[1].name}</b> : ${comments[1].message}`;
+makeComment.innerHTML=`<b>${comments[random].name}</b> : ${comments[random].message}`;
 
 makeComment.classList.add('social');
 commentsSec.appendChild(makeComment);

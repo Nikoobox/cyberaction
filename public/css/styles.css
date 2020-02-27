@@ -152,6 +152,10 @@ ul{
 .games{
   padding-bottom: 5%!important;
 }
+.new{
+  color: #D3573A;
+  font-weight: 400!important;
+}
 @media(max-width: 768px) {
   .navLogoText{
     height: 1.5rem;
