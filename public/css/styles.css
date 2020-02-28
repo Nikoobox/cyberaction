@@ -348,7 +348,7 @@ ul{
   }
   .fab{
     color: #343a40;
-    margin: 0 2% 0 2%;
+    margin: 0 1% 0 1%;
     font-size: 2.2rem !important;
   }
   .fab:hover{
@@ -358,7 +358,10 @@ ul{
   #allrights{
     font-size: 0.9rem;
     color: #343a40;
-    padding: 1% auto 1% auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: auto;
+    padding-left: auto;
   }
   @media(max-width: 768px) {
     .address{
