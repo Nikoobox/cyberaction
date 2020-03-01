@@ -376,10 +376,13 @@ ul{
     }
 }
 /* AGREEMENT */
+.agreement-link-box{
+  margin-top: 2%;
+}
 .agreement-link{
   font-size: 0.9rem;
   color: #343a40;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 1%;
 }
 .agreement-link:hover{
