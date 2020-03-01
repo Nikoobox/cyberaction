@@ -408,7 +408,7 @@ ul{
 @media(max-width: 768px) {
   .container-agreement{
     margin-bottom: 10%;
-    padding-left: 2%!important;
-    padding-right: 2%!important;
+    padding-left: 3%!important;
+    padding-right: 3%!important;
   }
 }
