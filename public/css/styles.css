@@ -360,8 +360,6 @@ ul{
     color: #343a40;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: auto;
-    padding-left: auto;
   }
   @media(max-width: 768px) {
     .address{
@@ -376,4 +374,38 @@ ul{
     .social{
       padding-top:10%;
     }
+}
+/* AGREEMENT */
+.agreement-link{
+  font-size: 0.9rem;
+  color: #343a40;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.agreement-link:hover{
+  color: black;
+  font-weight: 400;
+}
+.agreement_heading{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+
+}
+.section_heading_sub{
+  text-align: center;
+  font-size: 1.6rem;
+}
+.container-agreement{
+  margin-bottom: 10%;
+  padding-left: 5%!important;
+  padding-right: 5%!important;
+}
+
+@media(max-width: 768px) {
+  .container-agreement{
+    margin-bottom: 10%;
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+  }
 }
