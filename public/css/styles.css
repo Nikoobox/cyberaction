@@ -11,6 +11,9 @@ nav{
 .btn a{
   color:white!important;
 }
+.btn-lg{
+  border-radius: 0.05rem!important;
+}
 a:hover {
   text-decoration: none!important;
 }
