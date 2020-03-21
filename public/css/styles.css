@@ -424,6 +424,7 @@ ul{
   }
 }
 /* ANIMATION */
+@media(min-width: 769px) {
 .left{
   /* animation: MoveInLeft 1s ease-out; */
   animation-name: moveInLeft;
@@ -442,4 +443,5 @@ ul{
     opacity:1;
     transform: translate(0);
   }
+}
 }
