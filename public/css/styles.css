@@ -88,11 +88,13 @@ ul{
 }
 .banner .videobox_text p:nth-of-type(1){
   font-size: 2.3rem;
+  /* font-size: 3rem; */
   font-weight: 400;
   margin-bottom:4%;
 }
 .banner .videobox_text p:nth-of-type(2){
   font-size: 1.3rem;
+  /* font-size: 1.8rem; */
   font-weight: 300;
   margin-bottom:4%;
 }
@@ -103,6 +105,14 @@ ul{
 }
 .btn-book:hover{
   background-color: #b03f25!important;
+}
+@media(min-width: 1200px) {
+  .banner .videobox_text p:nth-of-type(1){
+    font-size: 3rem;
+  }
+  .banner .videobox_text p:nth-of-type(2){
+    font-size: 1.8rem;
+  }
 }
 .logo_section2{
   display: block;
