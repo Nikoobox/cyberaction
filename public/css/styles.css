@@ -88,13 +88,11 @@ ul{
 }
 .banner .videobox_text p:nth-of-type(1){
   font-size: 2.3rem;
-  /* font-size: 3rem; */
   font-weight: 400;
   margin-bottom:4%;
 }
 .banner .videobox_text p:nth-of-type(2){
   font-size: 1.3rem;
-  /* font-size: 1.8rem; */
   font-weight: 300;
   margin-bottom:4%;
 }
@@ -150,7 +148,7 @@ ul{
   margin-bottom: 4%;
 }
 .btn-dark:hover{
-  background-color: rgb(40, 40, 40)!important;
+  background-color: rgb(45, 45, 45)!important;
 }
 .game_image{
   width:100%;
@@ -415,11 +413,30 @@ ul{
   padding-left: 5%!important;
   padding-right: 5%!important;
 }
-
 @media(max-width: 768px) {
   .container-agreement{
     margin-bottom: 10%;
     padding-left: 3%!important;
     padding-right: 3%!important;
+  }
+}
+/* ANIMATION */
+.left{
+  /* animation: MoveInLeft 1s ease-out; */
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /* backface-visibility: hidden; */
+}
+@keyframes moveInLeft{
+  0%{
+    opacity:0;
+    transform: translateX(-20px);
+  }
+  80%{
+  }
+  100%{
+    opacity:1;
+    transform: translate(0);
   }
 }
