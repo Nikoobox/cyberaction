@@ -57,6 +57,10 @@ a:hover {
 .nav-phone{
   display:none;
 }
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
@@ -70,7 +74,7 @@ ul{
 .banner{
   position: relative;
   width:100%;
-  height:100vh;
+  height:100vh;  
 }
 .banner video{
   top:0!important;
