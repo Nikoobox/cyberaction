@@ -1,3 +1,4 @@
+
 // Random comments appear on screen
 const comments = [
     {
