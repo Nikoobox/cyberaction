@@ -380,7 +380,7 @@ ul li {
 	font-size: 0.9rem;
 	color: #343a40;
 	padding-top: 1%;
-	padding-bottom: 1%;
+	/* padding-bottom: 1%; */
 }
 @media (max-width: 768px) {
 	.address {
@@ -409,6 +409,20 @@ ul li {
 .agreement-link:hover {
 	color: black;
 	font-weight: 400;
+}
+.ns-link-box{
+	margin-top:10px;
+
+}
+.ns-link{
+	font-weight: 400;
+	font-size: 0.9rem;
+	color:rgb(13, 14, 14);
+}
+.ns-link:hover {
+	color:rgb(13, 14, 14);
+	/* color: black; */
+	font-weight: 500;
 }
 .agreement_heading {
 	font-size: 2.1rem;
