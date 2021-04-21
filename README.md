@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-    <img width="120px" src="public/images/logoblack.png">
+    <img width="120px" src="public/images/LOADING_FIN_inst_copy.png">
 </div>
 
 ## About
