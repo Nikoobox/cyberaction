@@ -124,7 +124,7 @@ ul {
 }
 .section2{
 	background:rgb(213, 213, 213);
-	padding: 5% 0;
+	padding: 10% 0;
 	display:flex;
 	flex-direction: column;
 	align-items: center;
@@ -133,7 +133,7 @@ ul {
 }
 .img-box{
 	/* height:300px; */
-	width:40%;
+	width:35%;
 	/* background-color: yellow;; */
 	/* margin:auto 0; */
 	
