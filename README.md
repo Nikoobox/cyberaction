@@ -1,6 +1,6 @@
 # Cyberaction Samara
 <div align="start">
-  <a href="https://cyberactionsamara.ru/">Live Site</a>
+  <a href="https://cyberaction-samara.ru/">Live Site</a>
 </div>
 
 <div align="center">
